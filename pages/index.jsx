@@ -13,7 +13,9 @@ export default function Index() {
         </Head>
         <div className="container">
           <main>
-            <div className="bievenidos">Superior em Análise e Desenvolvimento de Sistemas</div>
+            <div className="bievenidos">
+              Superior em Análise e Desenvolvimento de Sistemas
+            </div>
             <div className="container" style={{ padding: "10px" }}>
               <div
                 style={{
@@ -28,16 +30,18 @@ export default function Index() {
               <h1>Uhuuuull!! </h1>
               <h1> Formei!</h1>
             </div>
-           
           </main>
         </div>
         <div className="seta-baixo"></div>
       </div>
       <div className="imgJs">
-        <img alt="logo" src={imgJs} width="100%" />
-        </div>
+        <img alt="js" id="js"  src={imgJs}/>
+      </div>
       <div className="invite">
-        Convido você para dividir comigo esse momento muito importante
+        Convido você para dividir comigo esse momento muito importante.
+      </div>
+      <div className="invite">
+        Celebrarei na Churrascaria Vitória em Canoas no dia 27/03/21 as 22h30
       </div>
     </>
   );
