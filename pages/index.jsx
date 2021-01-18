@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import imgLogo from "../images/chapeu.gif";
+import imgJs from "../images/javascript-1.jpg";
 
 export default function Index() {
   return (
@@ -27,12 +28,16 @@ export default function Index() {
               <h1>Uhuuuull!! </h1>
               <h1> Formei!</h1>
             </div>
+           
           </main>
         </div>
+        <div className="seta-baixo"></div>
       </div>
-      <div>bla ndaknsdkanasdn
-        masdsajdosjkad
-        adsisafajifs
+      <div className="imgJs">
+        <img alt="logo" src={imgJs} width="100%" />
+        </div>
+      <div className="invite">
+        Convido você para dividir comigo esse momento muito importante
       </div>
     </>
   );
